@@ -33,7 +33,7 @@ The dataset contains retail transaction records covering January to December 202
 | Transaction information | Transaction date and transaction ID |
 | Sales information | Quantity, price per unit, and total amount |
 
-**Data source:** [Retail Sales Dataset on Kaggle]((https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset))
+**Data source:** [Retail Sales Dataset on Kaggle](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)
 
 The original dataset contains transaction-level information. Additional analytical fields were prepared to support further analysis, including age groups, month, month number, quarter, order value groups and weekday/weekend classification.
 
