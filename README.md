@@ -100,79 +100,20 @@ Average Customer Age is calculated from the customer age values recorded in the 
 
 ## Key Findings
 
-The following findings are based on the current Excel and Power BI dashboard results.
-
-### 1. Revenue by Product Category
-
-Electronics generated the highest revenue at **$156,905**, followed by Clothing at $155,580 and Beauty at $143,515.
-
-The revenue contributions are relatively close across the three categories, indicating that total sales are distributed across multiple product categories rather than being concentrated in just one.
-
-### 2. Quantity Sold by Product Category
-
-Clothing recorded the highest sales volume at **894 units**, followed by Electronics at 849 units and Beauty at 771 units.
-
-The category with the highest quantity sold is not the category with the highest revenue. This illustrates why revenue and sales volume should be analyzed together.
-
-### 3. Monthly Revenue Trends
-
-Revenue varied throughout 2023.
-
-- May recorded the highest monthly revenue at **$53,150**.
-- September recorded the lowest monthly revenue at $23,620.
-- Revenue increased from September to October, reaching $46,580.
-
-These fluctuations highlight the importance of monitoring monthly performance. However, the available dataset alone does not establish the reasons behind the changes.
-
-### 4. Customer Demographics
-
-Customers aged 46–55 contributed the highest revenue among the age groups, with $100,690.
-
-Customers aged 56 and above contributed $80,410, the lowest revenue among the five age groups.
-
-Female customers accounted for $232,840 in revenue, compared with $223,160 from male customers. The difference between the two groups was $9,680.
-
-These results describe revenue distribution within the dataset and should not be interpreted as evidence of differences in customer profitability or purchasing preferences without further analysis.
-
-### 5. Weekday vs. Weekend Performance
-
-Weekdays generated $318,585 in revenue across 712 transactions, while weekends generated $137,415 across 288 transactions.
-
-Weekdays therefore accounted for approximately 69.9% of total revenue, compared with 30.1% on weekends.
-
-This difference provides a starting point for examining how transaction activity is distributed throughout the week. It does not, by itself, demonstrate that individual weekday transactions are more valuable.
-
-### 6. Order Value Distribution
-
-Transactions in the $1,000-and-above order value group contributed $286,800 in total revenue.
-
-This indicates that the highest order value group accounts for a substantial portion of the recorded revenue. Further investigation would be needed to understand how transaction frequency, quantity, and product mix contribute to this result.
+- **Revenue by Category:** Electronics generated the highest revenue ($156,905), followed by Clothing ($155,580) and Beauty ($143,515).
+- **Sales Volume:** Clothing recorded the highest quantity sold, with 894 units.
+- **Monthly Performance:** Revenue peaked in May at $53,150 and reached its lowest point in September at $23,620.
+- **Customer Demographics:** Customers aged 46–55 contributed the highest revenue among age groups ($100,690).
+- **Sales by Day Type:** Weekdays contributed 69.9% of total revenue, compared with 30.1% on weekends.
+- **Order Value:** Transactions in the $1,000-and-above order value group contributed $286,800 in revenue.
 
 ## Business Recommendations
 
-Based on the observed patterns, the following actions could be explored.
-
-### 1. Monitor Category-Level Performance
-
-Track revenue and quantity sold separately for each product category. This can help identify changes in demand and determine whether revenue growth comes from higher sales volume or differences in transaction value.
-
-### 2. Investigate Monthly Revenue Fluctuations
-
-Review the months with the highest and lowest revenue alongside transaction counts, quantities sold, and order values. Additional historical data would help establish whether these patterns recur.
-
-### 3. Explore Customer Segmentation
-
-Use age group and gender to explore differences in purchasing behavior. Before developing targeted campaigns, examine transaction frequency, average order value, and product category preferences within each segment.
-
-### 4. Evaluate Weekday and Weekend Activity
-
-Compare transaction counts, average order value, and quantity sold across weekdays and weekends. The results can inform decisions about promotional timing and operational planning.
-
-### 5. Examine High-Value Transactions
-
-Investigate the transactions contributing to the $1,000-and-above group. Understanding their product mix and quantities could help identify patterns associated with higher transaction values.
-
-These recommendations are exploratory. Their effectiveness should be evaluated using additional data and measurable business outcomes before implementation.
+- **Monitor Product Categories:** Track revenue and quantity sold together to understand category performance.
+- **Investigate Monthly Trends:** Examine transaction volume and order values during high- and low-revenue months.
+- **Explore Customer Segments:** Analyze purchasing patterns across age groups and gender to identify potential customer segments.
+- **Review Sales Timing:** Compare weekday and weekend transaction patterns when evaluating promotional opportunities.
+- **Analyze High-Value Transactions:** Examine product mix and quantities within high-value orders to understand their contribution to revenue.
 
 ## Repository Structure
 
@@ -200,7 +141,7 @@ Retail-Analysis/
 └── README.md
 ```
 
-## How to Use This Project
+## Project Setup & Execution
 
 ### Prerequisites
 
@@ -208,7 +149,7 @@ Retail-Analysis/
 - Microsoft Excel.
 - Power BI Desktop, if reviewing the Power BI report file.
 
-### Getting Started
+### Steps to Reproduce
 
 1. Clone or download this repository.
 2. Review the original dataset in the `dataset/` directory.
